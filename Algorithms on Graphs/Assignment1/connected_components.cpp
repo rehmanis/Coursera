@@ -4,7 +4,7 @@
 // description: Problem 2 of the first assignment of Algorithms on Graphs
 //				by University of California, San Diego & Higher School of Economics on Coursera
 //
-//              The task was : Given an undirected graph with n vertices and m edges, compute 
+//				The task was : Given an undirected graph with n vertices and m edges, compute 
 //				the number of connected component in it.
 //              
 //				Starter file with main function was already provided but implementation of
@@ -25,8 +25,8 @@ using std::pair;
 // PRE: 1 ≤ adj.size() ≤ 10e3; 0 ≤ x ≤ adj.size()-1; visited.size() = adj.size()
 // POST: updates the visited status for all neighbours reachable from x to true 
 // PARAM: adj = an undirected graph represented in adjacancey list with n vertices and 2*m edges where n is adj.size() 
-//		  visited = keeps track of all the vertices that have already been visited
-//		  x = a vertice of adj for which we want to find the reachable neighbour vertices.
+//        visited = keeps track of all the vertices that have already been visited
+//        x = a vertice of adj for which we want to find the reachable neighbour vertices.
 
 void reach(vector<vector<int> > &adj, vector<bool> &visited, int x) {
 
@@ -49,15 +49,15 @@ void reach(vector<vector<int> > &adj, vector<bool> &visited, int x) {
 // PRE: 1 ≤ adj.size() ≤ 10e3; visited.size() = adj.size();
 // POST: returns the number of total connected components by finding the reachable neighbours for all vertice of adj
 // PARAM: adj = an undirected graph represented in adjacancey list with n vertices and 2*m edges where n is adj.size() 
-//		  visited = keeps track of all the vertices that have already been visited
+//        visited = keeps track of all the vertices that have already been visited
 
 int number_of_components(vector<vector<int> > &adj, vector<bool> visited) {
-	
+
 	int res = 0;
 
 	// iterate for all vertices of the graph
-	for (vector<int>::size_type v = 0; v < adj.size(); v++) { 
-		
+	for (vector<int>::size_type v = 0; v < adj.size(); v++) {
+
 		if (visited[v] == false) {  // if vertice v has not yet been visited
 			reach(adj, visited, v); // update all reachable vertices from v 
 			++res;					// and increment the result
@@ -74,7 +74,7 @@ int main() {
 	// results on the console
 	/**************************************************************************************
 
-	
+
 	//Test 1 : graph with 8 vertices, 4 edges. 4 connected components
 	vector<bool> visited1(8, false);
 	vector<vector<int> > adj1(8, vector<int>());
@@ -139,7 +139,7 @@ int main() {
 
 	**************************************************************************************/
 	// The code below was mostly provided as a part of the starter file for the assignment with few modifications
-	
+
 	size_t n, m;
 	std::cin >> n >> m;
 	vector<vector<int> > adj(n, vector<int>());
@@ -151,6 +151,6 @@ int main() {
 		adj[y - 1].push_back(x - 1);
 	}
 	std::cout << number_of_components(adj, visited);
-	
-	
+
+
 }

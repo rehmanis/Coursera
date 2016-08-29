@@ -4,7 +4,7 @@
 // description: Problem 1 of the first assignment of Algorithms on Graphs
 //				by University of California, San Diego & Higher School of Economics on Coursera
 //
-//              The task was : Given an undirected graph and two distinct vertices u and v, 
+//				The task was : Given an undirected graph and two distinct vertices u and v, 
 //				check if there is a path between u and v
 //              
 //				Starter file with main function was already provided but implementation of
@@ -23,9 +23,9 @@ using std::vector;
 // PRE: 1 ≤ adj.size() ≤ 10e3; 0 ≤ x, y ≤ adj.size()-1; x != y
 // POST: returns 1 for path between x and y, 0 otherwise
 // PARAM: adj = an undirected graph represented in adjacancey list with n vertices and 2*m edges where n is adj.size() 
-//		  visited = keeps track of all the vertices that have already been visited
-//		  x = one of the vertice of adj
-//		  y = another vertice of adj not equal to x
+//        visited = keeps track of all the vertices that have already been visited
+//        x = one of the vertice of adj
+//        y = another vertice of adj not equal to x
 
 int reach(vector<vector<int> > &adj, vector<bool> visited, int x, int y) {
 
@@ -39,7 +39,7 @@ int reach(vector<vector<int> > &adj, vector<bool> visited, int x, int y) {
 		if (visited[adj[x][v]] == false) {
 			if (adj[x][v] == y) // if the target vertice y is connected to the edge from x, return 1
 				return 1;
-			
+
 			else {
 				value = reach(adj, visited, adj[x][v], y); // perform a depth first search with new x value
 				if (value == 1) // if x = y during the depth first search, return 1.
@@ -53,7 +53,7 @@ int reach(vector<vector<int> > &adj, vector<bool> visited, int x, int y) {
 }
 
 int main() {
-	
+
 	// Few test case to check if the reach function works. These are commented since the 
 	// assignment requires the reach.cpp file to read input values and output the respective
 	// results on the console
@@ -99,7 +99,7 @@ int main() {
 	}
 
 	system("PAUSE");
-	
+
 	**************************************************************************************/
 	// The code below was mostly provided as a part of the starter file for the assignment with few modifications
 
@@ -116,8 +116,8 @@ int main() {
 	int x, y;
 	std::cin >> x >> y;
 	std::cout << reach(adj, visited, x - 1, y - 1) << std::endl;
-	
-	
+
+
 }
 
 
