@@ -1,4 +1,4 @@
-﻿// file:        connecting_points.cpp
+﻿// file:        clustering.cpp
 // author:      Shamsuddin Rehmani
 // date:        2016-07-24
 // description: Problem 2 of the fifth assignment of Algorithms on Graphs
