@@ -1,7 +1,0 @@
-root = true
-[*]
-
-# Set default indent style
-indent_style = tab
-indent_size = 4
-trim_trailing_whitespace = true
