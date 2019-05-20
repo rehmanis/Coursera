@@ -1,0 +1,10 @@
+Min-Project #1 Overview:
+-2048 is a simple grid-based numbers game. The object of the game is to combine tiles with the same 
+ number to make larger numbered tiles. You "win" when you create a 2048 tile. In the first two 
+ assignments, we will implement a version of the 2048 game. Although the original game is played on 
+ a 4 x 4 grid, your version should be able to have an arbitrary height and width. In this first assignment,
+ we will focus on only one aspect of the game: merging tiles.
+
+Complete Mini-Project Decription can be found at: https://www.coursera.org/learn/principles-of-computing-1/supplement/1baei/mini-project-description
+
+Link to my solution: http://www.codeskulptor.org/#user46_Hn6NfnDEFx_13.py
