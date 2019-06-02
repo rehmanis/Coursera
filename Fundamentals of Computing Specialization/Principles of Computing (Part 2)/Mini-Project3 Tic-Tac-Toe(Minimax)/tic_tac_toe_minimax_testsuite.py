@@ -1,6 +1,6 @@
 """
 Testing suite for functions used in one implementation
-of Yathzee game
+of Mini-max Tic-Tac-Toe player
 """
 import poc_simpletest as simpletest
 import user46_NHM1TTnSvs_129 as ttt_minimax

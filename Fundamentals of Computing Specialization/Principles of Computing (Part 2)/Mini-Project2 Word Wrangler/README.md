@@ -5,7 +5,7 @@ Overview
 
 * We have provided a working GUI and a class to manage the state of the game. You will be responsible for writing several helper functions. These functions will be used by the provided code in order to build the list of valid words that are composed of letters from the input word.
 
-Complete project decription can be found at : 
+Complete project decription can be found at: 
 <https://www.coursera.org/learn/principles-of-computing-2/supplement/xl26r/mini-project-description>
 
 Link to my solution:
