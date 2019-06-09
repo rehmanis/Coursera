@@ -528,11 +528,11 @@ class Puzzle:
         for col in range(self._width - 1, 1, -1):
             assert self.row1_invariant(col), (
                 "row1 invariant violated at position (" 
-                + str(row) + ", " + str(col) + ")")
+                + str(1) + ", " + str(col) + ")")
             move_seq += self.solve_row1_tile(col)
             assert self.row0_invariant(col), (
                 "row0 invariant violated at position (" 
-                + str(row) + ", " + str(col) + ")")
+                + str(0) + ", " + str(col) + ")")
             move_seq += self.solve_row0_tile(col)            
         
         
@@ -541,5 +541,5 @@ class Puzzle:
         return move_seq
 
 #Start interactive simulation
-#poc_fifteen_gui.FifteenGUI(Puzzle(4, 5))
+poc_fifteen_gui.FifteenGUI(Puzzle(4, 5))
 

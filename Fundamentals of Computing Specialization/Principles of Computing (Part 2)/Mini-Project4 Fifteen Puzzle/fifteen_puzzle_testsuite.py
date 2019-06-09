@@ -6,7 +6,7 @@ Note that solved configuration has the blank
 """
 
 import poc_simpletest as simpletest
-import user46_p9CLHFUXsW_53 as puzzle
+import user46_p9CLHFUXsW_56 as puzzle
 
 class TestFifteenPuzzle():
     """

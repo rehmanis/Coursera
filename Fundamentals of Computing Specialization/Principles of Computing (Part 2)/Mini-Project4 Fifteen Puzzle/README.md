@@ -12,7 +12,7 @@ Complete project decription can be found at :
 <https://www.coursera.org/learn/principles-of-computing-2/supplement/08FqM/mini-project-description>
 
 Link to my solution:
-<http://www.codeskulptor.org/#user46_p9CLHFUXsW_53.py>
+<http://www.codeskulptor.org/#user46_p9CLHFUXsW_56.py>
 
 Link to testsuite:
-<http://www.codeskulptor.org/#user46_ZoVa3j3l3k_65.py>
+<http://www.codeskulptor.org/#user46_ZoVa3j3l3k_66.py>
