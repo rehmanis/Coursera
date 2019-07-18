@@ -2,8 +2,6 @@
 *.pyc
 
 #### Latex #####
-*.log
 *.out
+*.log
 *.gz
-
-
