@@ -1,5 +1,5 @@
-#Project and Application Overviews
-##Project #1: Degree Distribution for Graphs
+# Project and Application Overviews
+## Project #1: Degree Distribution for Graphs
 
 * For your first project, you will write Python code that creates dictionaries corresponding to some simple examples of graphs. You will also implement two short functions that compute information about the distribution of the in-degrees for nodes in these graphs. You will then use these functions in the Application component of Module 1 where you will analyze the degree distribution of a citation graph for a collection of physics papers. This final portion of module will be peer assessed.
 
@@ -8,7 +8,7 @@
 Complete project description can be found at : 
 <https://www.coursera.org/learn/algorithmic-thinking-1/supplement/hw1o3/project-1-description>
 
-##Application #1: Analysis of Citation Graphs
+## Application #1: Analysis of Citation Graphs
 
 * In the Module 1 Application, we will combine the mathematical analysis that we began in the Homework with the code that you have written in the Project to analyze a real-world problem: How do scientific papers get cited? This part of the module will probably be much more unstructured than you are accustomed to in an on-line class. Our goal is to provide a more realistic simulation of how the concepts that you are learning are actually used in practice. Your key task in this part of the module is to think about the problem at hand as you answer each question.
 
