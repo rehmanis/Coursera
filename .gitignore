@@ -1,0 +1,12 @@
+##### Python #####
+*.pyc
+
+#### Latex #####
+*.log
+*.out
+*.aux
+*.gz
+
+#### VSCode ####
+*.pylintrc
+
