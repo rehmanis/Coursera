@@ -9,3 +9,5 @@ Overview
 
 Complete project decription can be found at : 
 <https://www.coursera.org/learn/principles-of-computing-2/supplement/3VwCE/mini-project-description>
+
+Link to my solution: <http://www.codeskulptor.org/#user46_uQfN1iv6Qq_0.py>
