@@ -322,7 +322,7 @@ def run():
     run_strategy(strategies, SIM_TIME)
 
 #####################################
-## uncomment to run the simmulation
+run the simmulation
 #####################################
-#run()
+run()
 
