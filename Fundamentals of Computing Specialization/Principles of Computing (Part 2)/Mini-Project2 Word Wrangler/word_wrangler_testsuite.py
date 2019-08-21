@@ -4,7 +4,7 @@ of word wrangler game
 """
 
 import poc_simpletest as simpletest
-import user46_5gpKzUvHYk_71 as wrangler
+import user46_5gpKzUvHYk_75 as wrangler
 
 class TestWordWangler():
     """

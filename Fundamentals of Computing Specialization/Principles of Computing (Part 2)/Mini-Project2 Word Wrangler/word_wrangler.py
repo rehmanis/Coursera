@@ -181,7 +181,7 @@ def run():
                                      gen_all_strings)
     provided.run_game(wrangler)
 
-# Uncomment when you are ready to try the game
+# lauches the game
 run()
 
     
