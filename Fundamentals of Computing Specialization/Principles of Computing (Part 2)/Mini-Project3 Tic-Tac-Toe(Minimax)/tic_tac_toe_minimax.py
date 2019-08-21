@@ -79,4 +79,4 @@ def move_wrapper(board, player, trials):
 # testing to save time.
 
 # provided.play_game(move_wrapper, 1, False)        
-# poc_ttt_gui.run_gui(3, provided.PLAYERO, move_wrapper, 1, False)
+poc_ttt_gui.run_gui(3, provided.PLAYERO, move_wrapper, 1, False)
