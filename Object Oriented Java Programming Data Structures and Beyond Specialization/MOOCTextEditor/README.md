@@ -19,5 +19,5 @@ clicking the Generate Markov Text creates a Trie data structure based on the inp
 
 To find the edit distance between two words, use the edit distance button and type the desired words. This generate the edit distance showing the word path from one word to the other as can be seen below:
 
-![edit distance(images/text_editor_edit_dist.png)
+![edit distance](images/text_editor_edit_dist.png)
 
