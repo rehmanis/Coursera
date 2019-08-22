@@ -6,4 +6,14 @@ Overview:
 
 Once you run the `EarthquakeCityMap.java`, you should see the map pop:
 
-![Zoomed Map](images/earthquake_overall.PNG)
+![Overall Map](images/earthquake_overall.PNG)
+
+To zoom the map, double click on the area to zoom. Hovering the map on the marker will show the information about the marker as shown below.
+
+![Zoom hover quake](earthquake_zoomed_hover.PNG)
+
+![Zoom hover city](earthquake_zoomed_city.PNG)
+
+Clicking the marker will hide all other markers as seen below
+
+![Zomm click](earthquake_zoomed_select.PNG)
