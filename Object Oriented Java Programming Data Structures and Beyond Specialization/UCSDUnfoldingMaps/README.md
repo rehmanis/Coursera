@@ -24,6 +24,6 @@ To see the map with airport markers, run the `AirportMap.java`, you should see t
 
 To see the routes from a particular airport, click on the desired airport marker. Hovering over the airport marker show the airport information. Shown below is the airport routes from Vancouver International Airport located 14ft above sea level. As for case for earthquake map, hovering the airport marker shows the airport name and elevation
 
-![Overall Airport](images/airport_overall.PNG)
+![Overall Airport](images/airport_route.PNG)
 
 For both maps, panning and zooming in and out is possiblle. Panning is activated by pressing and holding left mouse click then moving the mouse as desired. Zooming in is achieved by double clicking at the desired location. Zoom in and zoom out can also be achieved by mousepad or mouse wheel.
