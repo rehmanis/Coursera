@@ -2,6 +2,9 @@
 
 Implemented the merge function to be used in the next project for the 2048 game logic.
 
+Link to my solution:
+<http://www.codeskulptor.org/#user46_Hn6NfnDEFx_13.py>
+
 Mini-project overview taken from course page can be found below:
 * 2048 is a simple grid-based numbers game. The object of the game is to combine tiles with the same number to make larger numbered tiles. You "win" when you create a 2048 tile. In the first two assignments, we will implement a version of the 2048 game. Although the original game is played on a <a href="https://www.codecogs.com/eqnedit.php?latex=4&space;\times&space;4" target="_blank"><img src="https://latex.codecogs.com/gif.latex?4&space;\times&space;4" title="4 \times 4" /></a> grid, your version should be able to have an arbitrary height and width. In this first assignment,we will focus on only one aspect of the game: merging tiles.
 
@@ -9,6 +12,3 @@ Mini-project overview taken from course page can be found below:
 
 Complete project description can be found at : 
 <https://www.coursera.org/learn/principles-of-computing-1/supplement/1baei/mini-project-description>
-
-Link to my solution:
-<http://www.codeskulptor.org/#user46_Hn6NfnDEFx_13.py>
